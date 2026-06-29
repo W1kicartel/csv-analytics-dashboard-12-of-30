@@ -1,0 +1,27 @@
+{
+  "name": "csv-analytics-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "In-browser CSV/TSV analytics dashboard: parsing, type inference, statistics and charts. Day 12 of 30.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "tsx src/csv.test.ts && tsx src/analyze.test.ts"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.3",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
